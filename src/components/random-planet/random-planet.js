@@ -13,6 +13,9 @@ export default class RandomPlanet extends Component {
 			loading: true,
 			error: false
 		};
+	}
+
+	componentDidMount() {
 		this.updatePlanet();
 	}
 
